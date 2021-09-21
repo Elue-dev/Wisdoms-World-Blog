@@ -1059,6 +1059,11 @@ a.more-link{
     line-height:1.5;
 }
 
+.insert{
+    color: white;
+    background: rgb(184, 31, 31);
+    margin-top: .4rem;
+}
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:768px){

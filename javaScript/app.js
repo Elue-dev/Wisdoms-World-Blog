@@ -74,6 +74,7 @@ var images = [
         if(emailInput.value === ''){
           e.preventDefault();
           insert.textContent = 'Please enter your email...';
+          insert.style.padding = '.15rem';
         }else{
           emailInput.value = '';
         }
