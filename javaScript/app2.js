@@ -25,3 +25,17 @@ $(function(){
       $(".modal-bg").removeClass("modal-active");
     });
   });
+
+  const emailInput = document.querySelector('.email');
+      const form = document.querySelector('form');
+      const insert = document.querySelector('.insert')
+
+      form.addEventListener('submit', (e) => {
+        if(emailInput.value === ''){
+          e.preventDefault();
+          insert.textContent = 'Please enter your email...';
+          insert.style.padding = '.15rem';
+        }else{
+          emailInput.value = '';
+        }
+      });
