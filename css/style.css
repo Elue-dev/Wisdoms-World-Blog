@@ -14,6 +14,10 @@ html{
     scroll-behavior: smooth;
 }
 
+input, button{
+    outline: none;
+}
+
 
 /*HEDER SECTION*/
 
@@ -1063,6 +1067,10 @@ a.more-link{
     color: white;
     background: rgb(184, 31, 31);
     margin-top: .4rem;
+}
+
+input, button{
+    outline: none;
 }
 
 /*MEDIA QUERIES*/
