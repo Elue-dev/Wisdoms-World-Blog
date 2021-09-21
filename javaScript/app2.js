@@ -35,6 +35,7 @@ $(function(){
           e.preventDefault();
           insert.textContent = 'Please enter your email...';
           insert.style.padding = '.15rem';
+          insert.style.color = '#fff';
         }else{
           emailInput.value = '';
         }
